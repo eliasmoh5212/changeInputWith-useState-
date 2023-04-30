@@ -10,7 +10,7 @@ const Form = () => {
     event.preventDefault();
     if (paragraph != null) {
       paragraph.innerHTML =
-        "Dear Mr" + person.name + " with the age of " + person.age;
+        "Dear Mr/Ms" + person.name + " with the age of " + person.age;
     }
   };
 
