@@ -1,4 +1,4 @@
-import { FormEvent, useRef, useState } from "react";
+import { FormEvent, useState } from "react";
 
 const Form = () => {
   const [person, setPerson] = useState({
@@ -49,6 +49,7 @@ const Form = () => {
       </button>
       <hr />
       <p id="para"></p>
+      <p id="para1">NEW Paragaraph</p>
     </form>
   );
 };
